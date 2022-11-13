@@ -148,12 +148,12 @@ nav {
     padding: 8px 30px;
     font-size: 20px;
     text-transform: uppercase;
-    /* transition: all 1s ease-in-out; */
+    transition: all 0.5s ease-in-out;
 }
 
-/* .hero-button:hover {
+.hero-button:hover {
 	background-color: #bf0034;
-} */
+}
 
 /* COLUMNS */
 
@@ -245,18 +245,11 @@ nav {
     font-size: 40px;
 }
 
-/* 
-@media screen and (max-width: 768px) {
-	.about-text {
-		margin-top: 60px;
+@media screen and (max-width: 550px) {
+	.about-image::before, .about-image::after {
+		display: none;
 	}
 }
-
-@media screen and (max-width: 450px) {
-	.about-text {
-		margin-top: 100px;
-	}
-} */
 
 /* INTERES SECTION */
 
@@ -419,18 +412,20 @@ nav {
 	display: block;
 	font-size: 20px;
 	text-transform: uppercase;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
 }
-/*
+
 .submit-button:hover {
 	color: #4f247c;
 	background-color: #ffffff;
-} */
+}
 
-/* @media screen and (max-width: 768px) {
-	.contact-form {
-		width: 100%;
+@media screen and (max-width: 768px) {
+	#contact form {
+		width: 90%;
 	}
-} */
+}
 
 /* FOOTER */
 footer {
@@ -462,7 +457,7 @@ footer {
     font-weight: 700;
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	.social,
 	.copyright {
 		width: 100%;
@@ -473,4 +468,4 @@ footer {
 	.social {
 		margin-top: 20px;
 	}
-} */
+}
